@@ -1,0 +1,8 @@
+npm install -D mysql
+
+const mysql = require('mysql');
+const host     = 'localhost',
+      user     = 'user',
+      password = 'secret',
+      database = 'database';
+const connection = mysql.createConnection({host, user, password, database});
